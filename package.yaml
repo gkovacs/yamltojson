@@ -1,0 +1,27 @@
+author: "Geza Kovacs (http://gkovacs.com)"
+name: "yamltojson"
+description: "A commandline utility to convert YAML / YML to JSON"
+keywords: 
+  - "yml"
+  - "yaml"
+  - "json"
+  - "cli"
+  - "util"
+version: "1.0.2"
+main: "index.js"
+repository: 
+  type: "git"
+  url: "https://github.com/gkovacs/yamltojson.git"
+bin: 
+  yaml2json: "./index.js"
+  yamltojson: "./index.js"
+  ymltojson: "./index.js"
+  yml2json: "./index.js"
+engines: 
+  node: ">= 0.2.0"
+test: "echo 'error no test'; exit 1"
+dependencies: 
+  js-yaml: "3.4.2"
+devDependencies: {}
+preferGlobal: true
+
